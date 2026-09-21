@@ -174,7 +174,6 @@ def run_agent(user_question: str) -> str:
             "When asked why, state what the data shows and what evidence "
             "would be needed to investigate the cause."
         ),
-        tools=TOOLS,
         input=input_messages,
     )
 

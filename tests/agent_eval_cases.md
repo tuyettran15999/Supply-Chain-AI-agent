@@ -1,3 +1,8 @@
+# Manual agent evaluation
+
+Run `python src/agent.py` after building the local database. Ask each question
+and compare the facts and numbers; exact wording may vary.
+
 | Question | Expected result |
 |---|---|
 | Which three months had the highest order cancellation rates? | M2016-05: 2.67%; M2015-02: 2.59%; M2017-09: 2.55%. |

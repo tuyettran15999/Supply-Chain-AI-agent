@@ -1,7 +1,7 @@
 from pathlib import Path
 import pandas as pd
 
-PROJECT_DIR = Path(__file__).resolve().parent
+PROJECT_DIR = Path(__file__).resolve().parents[1]
 RAW_PATH = PROJECT_DIR / "data" / "raw" / "DataCoSupplyChainDataset.csv"
 
 df = pd.read_csv(RAW_PATH, encoding = "latin1")

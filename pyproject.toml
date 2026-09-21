@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supply-chain-agent"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=3,<4",
+    "pandas>=2.2,<4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
